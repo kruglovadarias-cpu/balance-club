@@ -69,7 +69,10 @@ function changeOffer(direction) {
   offerRegion.querySelector('h2').innerHTML = offer.title;
   offerRegion.querySelector('.offer-status').textContent = offer.status;
   offerRegion.querySelector('.offer-description p:last-child').innerHTML = offer.text;
-  offerRegion.querySelector('[data-offer]').textContent = offer.button;
+  const offerButton = offerRegion.querySelector('[data-offer]');
+  offerButton.querySelector('.hero-cta-label').textContent = offer.button;
+  offerButton.querySelector('svg text').textContent = offer.button;
+  offerButton.setAttribute('aria-label', offer.button);
   offerRegion.dataset.giftOffer = String(offer.gift);
   offerRegion.setAttribute('aria-label', `Предложения центра: ${offerIndex + 1} из ${offers.length}`);
 }
@@ -84,5 +87,4 @@ offerRegion.addEventListener('touchend', event => { const delta = event.changedT
 
 const brandTrack = document.querySelector('.brand-track');
 [...brandTrack.children].forEach(logo => { const slot = document.createElement('div'); slot.className = 'brand-slot'; logo.replaceWith(slot); slot.append(logo); });
-if (window.matchMedia('(min-width:851px)').matches) brandTrack.scrollLeft = 365.798;
-createCarousel(brandTrack, {label:'Бренды', loop:true, controlsAfter:document.querySelector('.brand-band')});
+// Partner logos remain a static strip, as requested.

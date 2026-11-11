@@ -1,0 +1,69 @@
+/* Refinements requested in browser annotations. */
+.mobile-break{display:none}
+
+/* A real cutout: the image below the button shows through the letter shapes. */
+.header-contact .button-cutout{position:relative;font-weight:600;background:transparent;border:0;color:transparent}
+.header-contact .button-cutout:hover{background:transparent;color:transparent}
+.header-cta-label{color:transparent}
+.header-cta-cutout{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;font:inherit;overflow:visible}
+.header-cta-cutout text{font:inherit;font-weight:600}
+.header-cta-shape{fill:#fff}
+.button-cutout:hover .header-cta-shape{fill:var(--surface)}
+.intro .button-white,.consultation .button-white{color:var(--brand)}
+
+/* Solid white CTAs turn into white outlines; the header keeps its cutout. */
+.button-white:not(.button-cutout){position:relative;isolation:isolate;overflow:hidden;background:transparent;border-color:transparent;transition:color .3s ease,border-color .3s ease}
+.button-white:not(.button-cutout)::before{content:"";position:absolute;inset:0;z-index:-1;background:#fff;border-radius:inherit;transform:translateY(0);transition:transform .3s ease}
+.button-white:not(.button-cutout):hover,.button-white:not(.button-cutout):focus-visible{background:transparent;border-color:#fff;color:#fff}
+.button-white:not(.button-cutout):hover::before,.button-white:not(.button-cutout):focus-visible::before{transform:translateY(102%)}
+
+/* Outlined CTAs fill from the bottom. */
+.button-outline-light:not(.button-hero-stencil),.button-outline-dark{position:relative;isolation:isolate;overflow:hidden;background:transparent;transition:color .3s ease}
+.button-outline-light:not(.button-hero-stencil)::before,.button-outline-dark::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;transform:translateY(102%);transition:transform .3s ease}
+.button-outline-light:not(.button-hero-stencil)::before{background:#fff}
+.button-outline-dark::before{background:var(--text)}
+.button-outline-light:not(.button-hero-stencil):hover,.button-outline-light:not(.button-hero-stencil):focus-visible{background:transparent;color:var(--text)}
+.consultation .button-outline-light:hover,.consultation .button-outline-light:focus-visible{color:var(--brand)}
+.button-outline-dark:hover,.button-outline-dark:focus-visible{background:transparent;color:#fff}
+.button-outline-light:not(.button-hero-stencil):hover::before,.button-outline-light:not(.button-hero-stencil):focus-visible::before,.button-outline-dark:hover::before,.button-outline-dark:focus-visible::before{transform:translateY(0)}
+
+.button-hero-stencil{position:relative;isolation:isolate;overflow:hidden}
+.hero-cta-cutout{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;font:inherit;clip-path:inset(100% 0 0 0);transition:clip-path .3s ease}
+.hero-cta-cutout text{font:inherit}
+.hero-cta-label{transition:opacity .2s ease}
+.button-hero-stencil:hover,.button-hero-stencil:focus-visible{background:transparent;color:#fff}
+.button-hero-stencil:hover .hero-cta-cutout,.button-hero-stencil:focus-visible .hero-cta-cutout{clip-path:inset(0 0 0 0)}
+.button-hero-stencil:hover .hero-cta-label,.button-hero-stencil:focus-visible .hero-cta-label{opacity:0}
+
+/* Keep the slanted partner strip in place, without controls or scrolling. */
+.brand-track{width:max-content;max-width:none;overflow:visible;scroll-snap-type:none;transform:translateX(-365.798px);touch-action:auto}
+
+.document-links{text-decoration:none;gap:5px}
+.document-links .text-button{position:relative;display:inline-block;width:max-content;max-width:100%;padding-bottom:.15em;text-decoration:none;text-underline-offset:15%;color:var(--secondary)}
+.document-links .text-button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(1);transform-origin:left center}
+.document-links .text-button:hover,.document-links .text-button:focus-visible{color:var(--text);text-decoration:none}
+.document-links .text-button:hover::after,.document-links .text-button:focus-visible::after{animation:underline-redraw .38s ease-out both}
+@keyframes underline-redraw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){.document-links .text-button:hover::after,.document-links .text-button:focus-visible::after{animation:none}}
+.footer-logo{display:block;width:188px;height:65px}
+
+/* Only annotation 1 changes the mobile hero composition. */
+@media(max-width:560px){
+  .mobile-break{display:initial}
+  .desktop-break{display:none}
+  .hero-copy{margin-top:24px}
+  .hero-copy .eyebrow{max-width:240px;font-size:16px;line-height:1.2;margin-bottom:16px}
+  .hero h1{font-size:clamp(28px,7.7vw,36px);line-height:1.05;max-width:280px}
+  .hero-picture img{object-position:65% center}
+  .brand-track{transform:translateX(-20px)}
+  .footer-logo{width:145px;height:auto}
+  .footer-logo img{width:145px;height:auto}
+}
+@media(max-width:420px){.hero-picture img{object-position:70% center}}
+@media(prefers-reduced-motion:reduce){.button-white:not(.button-cutout),.button-white:not(.button-cutout)::before{transition:none}}
+@media(prefers-reduced-motion:reduce){.button-outline-light,.button-outline-dark,.button-outline-light::before,.button-outline-dark::before,.hero-cta-cutout,.hero-cta-label{transition:none}}
+@media(forced-colors:active){
+  .header-cta-cutout{display:none}
+  .header-contact .button-cutout{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
+  .header-cta-label{color:ButtonText}
+}
