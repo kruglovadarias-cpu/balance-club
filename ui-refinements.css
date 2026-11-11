@@ -83,10 +83,16 @@
 
 /* Continuous partner ribbon, using the same six source logos. */
 .brand-track{--brand-start:-365.798px;animation:brand-ribbon 50s linear infinite;will-change:transform}
-@keyframes brand-ribbon{from{transform:translateX(var(--brand-start))}to{transform:translateX(calc(var(--brand-start) - 50% - 8.226px))}}
+@keyframes brand-ribbon{from{transform:translateX(var(--brand-start))}to{transform:translateX(calc(var(--brand-start) - 50% - var(--brand-gap) / 2))}}
 @media(max-width:560px){.brand-track{--brand-start:-20px;animation-duration:38s}}
 @media(prefers-reduced-motion:reduce){.brand-track{animation:none;will-change:auto}}
 /* Source frame: title begins at y=652 within the 750px photograph. */
 .display-title{top:calc(100% - .8032787em);bottom:auto}
 
 .service-card:nth-last-child(-n+2) .service-image img{transform:none}
+
+/* Equal visual gaps, matching the original first-to-second logo spacing. */
+.brand-track{--brand-gap:66.74px;gap:var(--brand-gap)}
+.brand-slot{flex:0 0 auto}
+.brand-slot img{scale:1}
+@media(max-width:560px){.brand-track{--brand-gap:61.13px}.brand-slot img{zoom:.72}}
