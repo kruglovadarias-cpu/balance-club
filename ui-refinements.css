@@ -87,4 +87,4 @@
 @media(max-width:560px){.brand-track{--brand-start:-20px;animation-duration:38s}}
 @media(prefers-reduced-motion:reduce){.brand-track{animation:none;will-change:auto}}
 /* Source frame: title begins at y=652 within the 750px photograph. */
-@media(min-width:851px){.display-title{top:calc(100% - 6.805556vw);bottom:auto}}
+.display-title{top:calc(100% - .8032787em);bottom:auto}
