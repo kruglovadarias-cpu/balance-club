@@ -67,3 +67,14 @@
   .header-contact .button-cutout{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
   .header-cta-label{color:ButtonText}
 }
+
+/* Header: cutout at rest, white outline after its fill moves downward. */
+.header-contact .button-cutout{overflow:hidden;border:1px solid transparent;transition:border-color .3s ease}
+.header-cta-cutout{transform:translateY(0);transition:transform .3s ease}
+.header-cta-label{transition:color .3s ease}
+.header-contact .button-cutout:hover,.header-contact .button-cutout:focus-visible{background:transparent;border-color:#fff}
+.button-cutout:hover .header-cta-cutout,.button-cutout:focus-visible .header-cta-cutout{transform:translateY(102%)}
+.button-cutout:hover .header-cta-label,.button-cutout:focus-visible .header-cta-label{color:#fff}
+@media(prefers-reduced-motion:reduce){.header-contact .button-cutout,.header-cta-cutout,.header-cta-label{transition:none}}
+
+@media(max-width:360px){.intro-text h2{font-size:28px}}
