@@ -34,3 +34,7 @@ dialog{border:0;border-radius:12px;padding:40px;width:min(560px,calc(100% - 32px
 .principle:nth-child(4) .principle-mask img{left:calc(165.113px * var(--icon-scale));transform:scale(calc(-1 * var(--icon-scale)),var(--icon-scale));transform-origin:top left}
 .principle:last-child{overflow:visible}.principle:last-child .principle-mask{right:calc(-1 * var(--margin))}
 @media(max-width:850px){.principle:last-child{overflow:hidden}.principle:last-child .principle-mask{right:0}}
+
+.team-track img[src="assets/specialist-portrait-05.jpg"]{object-fit:contain;object-position:center;background:#686260;aspect-ratio:333 / 400}
+
+.team-track img[src="assets/specialist-portrait-01.jpg"]{object-fit:contain;object-position:center;background:#ecebe7;aspect-ratio:333 / 400}
