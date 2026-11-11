@@ -80,3 +80,11 @@
 @media(max-width:360px){.intro-text h2{font-size:28px}}
 
 @media(min-width:851px){.hero-offer{bottom:85px}}
+
+/* Continuous partner ribbon, using the same six source logos. */
+.brand-track{--brand-start:-365.798px;animation:brand-ribbon 50s linear infinite;will-change:transform}
+@keyframes brand-ribbon{from{transform:translateX(var(--brand-start))}to{transform:translateX(calc(var(--brand-start) - 50% - 8.226px))}}
+@media(max-width:560px){.brand-track{--brand-start:-20px;animation-duration:38s}}
+@media(prefers-reduced-motion:reduce){.brand-track{animation:none;will-change:auto}}
+/* Source frame: title begins at y=652 within the 750px photograph. */
+@media(min-width:851px){.display-title{top:calc(100% - 6.805556vw);bottom:auto}}

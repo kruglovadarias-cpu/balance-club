@@ -87,4 +87,11 @@ offerRegion.addEventListener('touchend', event => { const delta = event.changedT
 
 const brandTrack = document.querySelector('.brand-track');
 [...brandTrack.children].forEach(logo => { const slot = document.createElement('div'); slot.className = 'brand-slot'; logo.replaceWith(slot); slot.append(logo); });
-// Partner logos remain a static strip, as requested.
+// Repeat the existing six logos once so the loop has an identical seam.
+[...brandTrack.children].forEach(slot => {
+  slot.querySelector('img').loading = 'eager';
+  const duplicate = slot.cloneNode(true);
+  duplicate.setAttribute('aria-hidden', 'true');
+  duplicate.querySelector('img').alt = '';
+  brandTrack.append(duplicate);
+});
