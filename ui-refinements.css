@@ -96,3 +96,8 @@
 .brand-slot{flex:0 0 auto}
 .brand-slot img{scale:1}
 @media(max-width:560px){.brand-track{--brand-gap:61.13px}.brand-slot img{zoom:.72}}
+
+.about-main a{position:relative;display:inline-block;padding-bottom:.15em;text-decoration:none}
+.about-main a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(1);transform-origin:left center}
+.about-main a:hover::after,.about-main a:focus-visible::after{animation:underline-redraw .38s ease-out both}
+@media(prefers-reduced-motion:reduce){.about-main a:hover::after,.about-main a:focus-visible::after{animation:none}}
