@@ -19,3 +19,15 @@ const galleryDialog = document.createElement('dialog'); galleryDialog.className 
 const searchDialog = document.querySelector('#search-dialog'); document.querySelector('.search-toggle').addEventListener('click', () => searchDialog.showModal());
 document.querySelector('#search-form').addEventListener('submit', event => { event.preventDefault(); const query = document.querySelector('#search-input').value.trim().toLocaleLowerCase('ru'); const sections = [...document.querySelectorAll('main section')]; const match = sections.find(section => section.textContent.toLocaleLowerCase('ru').includes(query)); if (match && query) { searchDialog.close(); match.scrollIntoView(); match.setAttribute('tabindex', '-1'); match.focus({ preventScroll: true }); } else document.querySelector('#search-status').textContent = 'Не нашли совпадений. Попробуйте другое слово.'; });
 document.querySelector('#newsletter').addEventListener('submit', event => { event.preventDefault(); const form = event.currentTarget; if (!form.reportValidity()) return; const email = document.querySelector('#newsletter-email').value; const subject = encodeURIComponent('Подписка на новости Balance Club'); const body = encodeURIComponent('Хочу подписаться на новости центра. Мой email: ' + email); const status = form.querySelector('.form-status'); status.textContent = 'Откроется письмо администратору для подтверждения подписки.'; window.location.href = 'mailto:balanceclub@bk.ru?subject=' + subject + '&body=' + body; });
+
+// Restart the line from empty on every hover, including a focused link.
+document.querySelectorAll('.document-links .text-button, .about-main a').forEach(link => {
+  const redraw = () => {
+    link.classList.remove('is-underlining');
+    void link.offsetWidth;
+    link.classList.add('is-underlining');
+  };
+  link.addEventListener('pointerenter', redraw);
+  link.addEventListener('focus', redraw);
+  link.addEventListener('animationend', () => link.classList.remove('is-underlining'));
+});

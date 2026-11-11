@@ -42,7 +42,7 @@
 .document-links .text-button{position:relative;display:inline-block;width:max-content;max-width:100%;padding-bottom:.15em;text-decoration:none;text-underline-offset:15%;color:var(--secondary)}
 .document-links .text-button::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(1);transform-origin:left center}
 .document-links .text-button:hover,.document-links .text-button:focus-visible{color:var(--text);text-decoration:none}
-.document-links .text-button:hover::after,.document-links .text-button:focus-visible::after{animation:underline-redraw .38s ease-out both}
+.document-links .text-button.is-underlining::after{animation:underline-redraw .45s linear both}
 @keyframes underline-redraw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @media(prefers-reduced-motion:reduce){.document-links .text-button:hover::after,.document-links .text-button:focus-visible::after{animation:none}}
 .footer-logo{display:block;width:188px;height:65px}
@@ -99,5 +99,8 @@
 
 .about-main a{position:relative;display:inline-block;padding-bottom:.15em;text-decoration:none}
 .about-main a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(1);transform-origin:left center}
-.about-main a:hover::after,.about-main a:focus-visible::after{animation:underline-redraw .38s ease-out both}
+.about-main a.is-underlining::after{animation:underline-redraw .45s linear both}
 @media(prefers-reduced-motion:reduce){.about-main a:hover::after,.about-main a:focus-visible::after{animation:none}}
+
+.document-links .text-button:hover,.document-links .text-button:focus-visible,.about-main a:hover,.about-main a:focus-visible{text-decoration:none}
+@media(prefers-reduced-motion:reduce){.document-links .text-button.is-underlining::after,.about-main a.is-underlining::after{animation:none}}
