@@ -78,3 +78,5 @@
 @media(prefers-reduced-motion:reduce){.header-contact .button-cutout,.header-cta-cutout,.header-cta-label{transition:none}}
 
 @media(max-width:360px){.intro-text h2{font-size:28px}}
+
+@media(min-width:851px){.hero-offer{bottom:85px}}
