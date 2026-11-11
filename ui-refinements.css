@@ -91,11 +91,6 @@
 
 .service-card:nth-last-child(-n+2) .service-image img{transform:none}
 
-/* Equal visual gaps, matching the original first-to-second logo spacing. */
-.brand-track{--brand-gap:66.74px;gap:var(--brand-gap)}
-.brand-slot{flex:0 0 auto}
-.brand-slot img{scale:1}
-@media(max-width:560px){.brand-track{--brand-gap:61.13px}.brand-slot img{zoom:.72}}
 
 .about-main a{position:relative;display:inline-block;padding-bottom:.15em;text-decoration:none}
 .about-main a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(1);transform-origin:left center}
@@ -104,3 +99,17 @@
 
 .document-links .text-button:hover,.document-links .text-button:focus-visible,.about-main a:hover,.about-main a:focus-visible{text-decoration:none}
 @media(prefers-reduced-motion:reduce){.document-links .text-button.is-underlining::after,.about-main a.is-underlining::after{animation:none}}
+
+/* Exact Figma ribbon geometry: frame 493:9426 on the corrections page. */
+.brand-band{height:175.185px}
+.brand-track{--brand-gap:16.452px;gap:var(--brand-gap);height:175.185px;zoom:1}
+.brand-slot{position:relative;display:block;flex:0 0 349.346px;height:175.185px}
+.brand-slot:nth-child(6n+3),.brand-slot:nth-child(6n){flex-basis:350.949px}
+.brand-slot img{position:absolute;scale:1;zoom:1;transform:none}
+.brand-slot:nth-child(6n+1)>img{left:4.87px;top:67.31px}
+.brand-slot:nth-child(6n+2)>img{left:47.27px;top:69.26px}
+.brand-slot:nth-child(6n+3)>img{left:75.84px;top:63.05px}
+.brand-slot:nth-child(6n+4)>img{left:104.72px;top:60.2px}
+.brand-slot:nth-child(6n+5) .brand-amenity{position:absolute;left:65.86px;top:67.22px;width:218.61px;height:39.504px;overflow:hidden}
+.brand-slot:nth-child(6n)>img{left:82.98px;top:63.27px}
+@media(max-width:560px){.brand-band{height:126.133px}.brand-track{zoom:.72}}
