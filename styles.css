@@ -38,3 +38,6 @@ dialog{border:0;border-radius:12px;padding:40px;width:min(560px,calc(100% - 32px
 .team-track img[src="assets/specialist-portrait-05.jpg"]{object-fit:contain;object-position:center;background:#686260;aspect-ratio:333 / 400}
 
 .team-track img[src="assets/specialist-portrait-01.jpg"]{object-fit:contain;object-position:center;background:#ecebe7;aspect-ratio:333 / 400}
+
+/* Text widths follow the latest copy in Figma 493:9310. */
+.hero h1{max-width:609px}.hero-copy .eyebrow{max-width:268px}.intro-text h2{max-width:425px}.services .section-heading h2{max-width:687px}
