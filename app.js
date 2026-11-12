@@ -21,7 +21,12 @@ document.querySelector('#search-form').addEventListener('submit', event => { eve
 document.querySelector('#newsletter').addEventListener('submit', event => { event.preventDefault(); const form = event.currentTarget; if (!form.reportValidity()) return; const email = document.querySelector('#newsletter-email').value; const subject = encodeURIComponent('Подписка на новости Balance Club'); const body = encodeURIComponent('Хочу подписаться на новости центра. Мой email: ' + email); const status = form.querySelector('.form-status'); status.textContent = 'Откроется письмо администратору для подтверждения подписки.'; window.location.href = 'mailto:balanceclub@bk.ru?subject=' + subject + '&body=' + body; });
 
 // Restart the line from empty on every hover, including a focused link.
-document.querySelectorAll('.document-links .text-button').forEach(link => {
+if (document.body.classList.contains('about-page')) {
+  document.querySelectorAll('a, .text-button').forEach(link => {
+    if (!link.classList.contains('button') && getComputedStyle(link).textDecorationLine.includes('underline')) link.classList.add('underline-replay');
+  });
+}
+document.querySelectorAll('.document-links .text-button, .underline-replay').forEach(link => {
   const redraw = () => {
     link.classList.remove('is-underlining');
     void link.offsetWidth;
