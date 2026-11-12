@@ -1,5 +1,6 @@
 // Native scrolling keeps swipe, touchpad and keyboard navigation available.
 function createCarousel(track, {label, loop = false, nextButton, controlsAfter} = {}) {
+  if (!track) return;
   const cards = [...track.children];
   track.setAttribute('role', 'region');
   track.setAttribute('aria-roledescription', 'карусель');
@@ -76,6 +77,7 @@ function changeOffer(direction) {
   offerRegion.dataset.giftOffer = String(offer.gift);
   offerRegion.setAttribute('aria-label', `Предложения центра: ${offerIndex + 1} из ${offers.length}`);
 }
+if (offerRegion) {
 document.querySelector('[data-offer-prev]').addEventListener('click', () => changeOffer(-1));
 document.querySelector('[data-offer-next]').addEventListener('click', () => changeOffer(1));
 offerRegion.addEventListener('keydown', event => {
@@ -84,6 +86,8 @@ offerRegion.addEventListener('keydown', event => {
 let touchStart;
 offerRegion.addEventListener('touchstart', event => { touchStart = event.changedTouches[0].clientX; }, {passive:true});
 offerRegion.addEventListener('touchend', event => { const delta = event.changedTouches[0].clientX - touchStart; if (Math.abs(delta) > 50) changeOffer(delta < 0 ? 1 : -1); }, {passive:true});
+
+}
 
 const brandTrack = document.querySelector('.brand-track');
 [...brandTrack.children].forEach(logo => { const slot = document.createElement('div'); slot.className = 'brand-slot'; logo.replaceWith(slot); slot.append(logo); });
