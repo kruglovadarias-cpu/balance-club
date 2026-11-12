@@ -99,3 +99,32 @@ const brandTrack = document.querySelector('.brand-track');
   duplicate.querySelector('img').alt = '';
   brandTrack.append(duplicate);
 });
+
+
+const balanceWordmark = document.querySelector('.balance-wordmark');
+if (balanceWordmark && brandTrack) {
+  const balanceTrack = document.createElement('div');
+  balanceTrack.className = 'balance-track';
+  balanceWordmark.replaceChildren(balanceTrack);
+  const syncBalanceRibbon = () => {
+    const group = document.createElement('div');
+    group.className = 'balance-group';
+    balanceTrack.replaceChildren(group);
+    do {
+      const word = document.createElement('span');
+      word.textContent = 'Баланс';
+      group.append(word);
+    } while (group.getBoundingClientRect().width < window.innerWidth);
+    balanceTrack.append(group.cloneNode(true));
+    const brandStyle = getComputedStyle(brandTrack);
+    const logoDistance = (brandTrack.offsetWidth / 2 + parseFloat(brandStyle.columnGap) / 2) * (parseFloat(brandStyle.zoom) || 1);
+    const logoDuration = parseFloat(brandStyle.animationDuration);
+    if (logoDistance > 0 && logoDuration > 0) {
+      const pixelsPerSecond = logoDistance / logoDuration;
+      balanceTrack.style.setProperty('--balance-duration', group.getBoundingClientRect().width / pixelsPerSecond + 's');
+    }
+  };
+  document.fonts.ready.then(syncBalanceRibbon);
+  new ResizeObserver(syncBalanceRibbon).observe(brandTrack);
+  window.addEventListener('resize', syncBalanceRibbon, {passive:true});
+}
