@@ -24,9 +24,10 @@
     clearTimeout(window.__balanceEntranceTimer);
     media.add('(prefers-reduced-motion: no-preference)', () => {
       const animations = [], splits = new Set(), originalContent = new Map();
-      let introTrigger, disposed = false;
-      const pageTriggers = [], pageTargets = [];
-      const revealLines = (elements, animation, at, span, duration = .4) => {
+      let introTrigger, disposed = false, textWidth = innerWidth;
+      const pageObservers = [], pageWatches = [], pageTargets = [];
+      let observePage = () => {};
+      const revealLines = (elements, animation, at, span, duration = .4, lineStep = null) => {
         // SplitText treats every <br> as a break, including responsive breaks hidden by CSS.
         const originals = new Map([...elements].map(element => [element, element.innerHTML]));
         elements.forEach(element => element.querySelectorAll('br').forEach(br => {
@@ -37,7 +38,7 @@
         originalContent.set(split, originals);
         gsap.set(split.lines, {opacity: 0, yPercent: 40, filter: 'blur(4px)'});
         animation.to(split.lines, {opacity: 1, yPercent: 0, filter: 'blur(0px)',
-          duration, stagger: {amount: span}, ease: 'power1.out'}, at);
+          duration, stagger: lineStep === null ? {amount: span} : {each: lineStep}, ease: 'power1.out'}, at);
         return split;
       };
       const revertSplit = split => {
@@ -50,7 +51,7 @@
         disposed = true;
         animations.forEach(animation => animation.kill());
         introTrigger?.kill();
-        pageTriggers.forEach(trigger => trigger.kill());
+        pageObservers.forEach(observer => observer.disconnect());
         [...splits].forEach(revertSplit);
         gsap.set([header, copy, offer, description, introLayout, ...heroActions, ...introActions, ...pageTargets], {clearProps: 'opacity,visibility,transform,filter'});
         gsap.set(veil, {autoAlpha: 0});
@@ -105,28 +106,62 @@
           introTrigger = ScrollTrigger.create({id: 'home-intro-reveal', trigger: intro,
             start: 'top 78%', once: true, onEnter: playIntro});
         }
-        // Reveal the remaining headings and editorial copy once they enter the viewport.
-        // The intro and pinned interior already have their own coordinated animations.
-        const targets = [...document.querySelectorAll('main h2, main h3, main p, main .gift-price, .footer h2, .footer-address p, .footer-social p, .newsletter > p, .footer-line p')]
-          .filter(element => !element.closest('.intro, .interior-story') && element.textContent.trim());
-        targets.forEach(element => {
-          // Deep links must not hide content the reader has already scrolled past.
-          if (element.getBoundingClientRect().bottom < 0) return;
-          pageTargets.push(element);
-          gsap.set(element, {autoAlpha: 0});
-          let played = false;
-          const play = () => {
-            if (played) return;
-            played = true;
+        // Observe actual visibility in both axes: horizontal slider captions must not
+        // finish revealing while their card is still outside the clipped track.
+        const watchGroup = (trigger, elements, start = .78, actions = []) => {
+          if (!elements.length || trigger.getBoundingClientRect().bottom < 0 || elements[0].getBoundingClientRect().top < 0) return;
+          pageTargets.push(...elements, ...actions);
+          gsap.set([...elements, ...actions], {autoAlpha: 0});
+          const watch = {trigger, first: elements[0], start, played: false, play: null};
+          watch.play = () => {
+            if (watch.played) return;
+            watch.played = true;
             let split;
             const text = gsap.timeline({paused: true, onComplete: () => revertSplit(split)});
-            gsap.set(element, {autoAlpha: 1});
-            split = revealLines([element], text, 0, .35);
+            gsap.set(elements, {autoAlpha: 1});
+            split = revealLines(elements, text, 0, 0, .5, .1);
+            if (actions.length) text.to(actions, {autoAlpha: 1, duration: .3}, Math.max(.25, (split.lines.length - 1) * .1 + .3));
             animations.push(text);
             text.play(0);
           };
-          pageTriggers.push(ScrollTrigger.create({trigger: element, start: 'top 92%', once: true, onEnter: play}));
+          pageWatches.push(watch);
+        };
+        const targets = [...document.querySelectorAll('main h2, main h3, main p, main .gift-price, .footer h2, .footer-address p, .footer-social p, .newsletter > p, .footer-line p')]
+          .filter(element => !element.closest('.intro, .interior-story, .principle, .review-card, .team-track article') && element.textContent.trim());
+        targets.forEach(element => watchGroup(element, [element], element.closest('.footer-line') ? 1 : .78));
+        // Each argument card has one sequence: heading, then all paragraph lines.
+        // Trigger it when the copy is in view, not while only the card's top is visible.
+        document.querySelectorAll('.principle').forEach(card => {
+          const heading = card.querySelector('h3');
+          const body = [...card.children].find(element => element.tagName === 'DIV' && element.querySelector('p'));
+          if (body) watchGroup(body, [heading, ...body.querySelectorAll('p')].filter(Boolean), .7, [...body.querySelectorAll('.text-button')]);
         });
+        document.querySelectorAll('.team-track article').forEach(card => {
+          const elements = [...card.querySelectorAll('h3, p')];
+          if (elements.length) watchGroup(elements[0], elements);
+        });
+        observePage = () => {
+          pageObservers.forEach(observer => observer.disconnect());
+          pageObservers.length = 0;
+          for (const start of [...new Set(pageWatches.map(watch => watch.start))]) {
+            const watches = pageWatches.filter(watch => !watch.played && watch.start === start);
+            const byElement = new Map();
+            watches.forEach(watch => {byElement.set(watch.trigger, watch); byElement.set(watch.first, watch);});
+            const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                const watch = byElement.get(entry.target);
+                if (!watch || watch.first.getBoundingClientRect().top < -1 || watch.trigger.getBoundingClientRect().top > innerHeight * start + 1) return;
+                watch.play();
+                observer.unobserve(watch.trigger);
+                observer.unobserve(watch.first);
+              });
+            }, {rootMargin: `0px 0px -${Math.round(innerHeight * (1 - start))}px 0px`, threshold: start === .7 ? [0, 1] : [.35, 1]});
+            watches.forEach(watch => {observer.observe(watch.trigger); observer.observe(watch.first);});
+            pageObservers.push(observer);
+          }
+        };
+        observePage();
         root.classList.remove('home-motion-pending');
       } catch (error) {
         clearEntry();
@@ -134,7 +169,12 @@
       }
       const settleResize = () => {
         // Revert split lines before responsive line breaks change; never replay on resize.
-        animations.forEach(animation => animation.progress(1));
+        // A mobile address-bar height change must not finish a text reveal mid-line.
+        if (Math.abs(innerWidth - textWidth) > 1) {
+          textWidth = innerWidth;
+          animations.forEach(animation => animation.progress(1));
+        }
+        observePage();
       };
       window.addEventListener('resize', settleResize, {passive: true});
       return () => {
