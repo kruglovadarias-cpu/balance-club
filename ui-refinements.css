@@ -112,3 +112,7 @@
 
 .about-main .button-white{color:#7c7878;height:47px;min-height:47px;padding:0 24px;font-size:16px;font-weight:600;border-radius:6px;text-decoration:none}
 .about-main .button-white:hover,.about-main .button-white:focus-visible{color:#fff;text-decoration:none}
+
+/* Preserve the supplied logo’s native 149:50 proportions in both placements. */
+.header-logo img,.footer-logo img{width:100%;height:auto}
+@media(max-width:560px){.header-top{grid-template-columns:minmax(0,1fr) auto auto}.header-logo{max-width:100%}}

@@ -25,7 +25,8 @@
     media.add('(prefers-reduced-motion: no-preference)', () => {
       const animations = [], splits = new Set(), originalContent = new Map();
       let introTrigger, disposed = false;
-      const revealLines = (elements, animation, at, span) => {
+      const pageTriggers = [], pageTargets = [];
+      const revealLines = (elements, animation, at, span, duration = .4) => {
         // SplitText treats every <br> as a break, including responsive breaks hidden by CSS.
         const originals = new Map([...elements].map(element => [element, element.innerHTML]));
         elements.forEach(element => element.querySelectorAll('br').forEach(br => {
@@ -36,7 +37,7 @@
         originalContent.set(split, originals);
         gsap.set(split.lines, {opacity: 0, yPercent: 40, filter: 'blur(4px)'});
         animation.to(split.lines, {opacity: 1, yPercent: 0, filter: 'blur(0px)',
-          duration: .4, stagger: {amount: span}, ease: 'power1.out'}, at);
+          duration, stagger: {amount: span}, ease: 'power1.out'}, at);
         return split;
       };
       const revertSplit = split => {
@@ -49,8 +50,9 @@
         disposed = true;
         animations.forEach(animation => animation.kill());
         introTrigger?.kill();
+        pageTriggers.forEach(trigger => trigger.kill());
         [...splits].forEach(revertSplit);
-        gsap.set([header, copy, offer, description, introLayout, ...heroActions, ...introActions], {clearProps: 'opacity,visibility,transform,filter'});
+        gsap.set([header, copy, offer, description, introLayout, ...heroActions, ...introActions, ...pageTargets], {clearProps: 'opacity,visibility,transform,filter'});
         gsap.set(veil, {autoAlpha: 0});
         offerGrid.inert = false;
         root.classList.remove('home-motion-pending');
@@ -71,7 +73,7 @@
             offerGrid.inert = false;
             heroPlayed = true;
           }});
-          heroSplit = revealLines(document.querySelectorAll('#home .hero-copy .eyebrow, #home h1, #home .offer-grid > h2, #home .offer-description p'), text, .2, .45);
+          heroSplit = revealLines(document.querySelectorAll('#home .hero-copy .eyebrow, #home h1, #home .offer-grid > h2, #home .offer-description p'), text, .2, .6, .5);
           text.to(description, {autoAlpha: 1, duration: .4}, .2)
             .fromTo(heroActions, {autoAlpha: 0, y: 10}, {autoAlpha: 1, y: 0, duration: .35, stagger: .06, ease: 'power1.out'}, .8);
           animations.push(text,
@@ -103,6 +105,28 @@
           introTrigger = ScrollTrigger.create({id: 'home-intro-reveal', trigger: intro,
             start: 'top 78%', once: true, onEnter: playIntro});
         }
+        // Reveal the remaining headings and editorial copy once they enter the viewport.
+        // The intro and pinned interior already have their own coordinated animations.
+        const targets = [...document.querySelectorAll('main h2, main h3, main p, main .gift-price, .footer h2, .footer-address p, .footer-social p, .newsletter > p, .footer-line p')]
+          .filter(element => !element.closest('.intro, .interior-story') && element.textContent.trim());
+        targets.forEach(element => {
+          // Deep links must not hide content the reader has already scrolled past.
+          if (element.getBoundingClientRect().bottom < 0) return;
+          pageTargets.push(element);
+          gsap.set(element, {autoAlpha: 0});
+          let played = false;
+          const play = () => {
+            if (played) return;
+            played = true;
+            let split;
+            const text = gsap.timeline({paused: true, onComplete: () => revertSplit(split)});
+            gsap.set(element, {autoAlpha: 1});
+            split = revealLines([element], text, 0, .35);
+            animations.push(text);
+            text.play(0);
+          };
+          pageTriggers.push(ScrollTrigger.create({trigger: element, start: 'top 92%', once: true, onEnter: play}));
+        });
         root.classList.remove('home-motion-pending');
       } catch (error) {
         clearEntry();
