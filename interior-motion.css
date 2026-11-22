@@ -13,7 +13,7 @@
 .is-animated .about-picture{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover}
 .is-animated .about-overlay{position:absolute;inset:0;background:rgba(20,23,25,.42);backdrop-filter:blur(17px);-webkit-backdrop-filter:blur(17px)}
 .is-animated .interior-visit{position:absolute;inset:0;padding:40px var(--margin) 130px;background:none;grid-template-columns:1fr 1fr;gap:40px;z-index:2}
-.is-animated .interior-visit:after{content:"";position:absolute;top:0;bottom:0;left:calc(50% + 5px);width:1px;background:#ffffff33}
+.is-animated .interior-visit:after,.is-animated .about-layout:before{content:"";position:absolute;top:0;bottom:0;left:calc(50% + 5px);width:1px;background:#ffffff33}
 .is-animated .interior-visit-copy{padding-left:17px;max-width:369px}
 .is-animated .interior-visit .button{position:absolute;left:calc(50% + 37px);bottom:128px;margin:0}
 .is-animated .about-layout{position:absolute;inset:0;z-index:2;padding-top:40px;gap:40px}
@@ -31,7 +31,7 @@
  .interior-visit{grid-template-columns:1fr;padding:32px var(--margin);gap:28px}.interior-visit h2{max-width:none}.interior-visit-copy>p{margin-bottom:28px}
  .is-animated .interior-stage{min-height:0}
  .is-animated .interior-visit{display:block;padding:28px var(--margin) 90px}
- .is-animated .interior-visit:after{display:none}
+ .is-animated .interior-visit:after,.is-animated .about-layout:before{display:none}
  .is-animated .interior-visit h2{font-size:18px;max-width:240px;margin-bottom:24px}
  .is-animated .interior-visit-copy{max-width:100%;font-size:15px}
  .is-animated .interior-visit-copy>p{max-width:300px;margin-bottom:28px}
@@ -72,4 +72,15 @@
  .is-animated .about-main h2{font-size:16px}
  .is-animated .about-main .button{margin-top:12px;height:43px;min-height:43px;font-size:14px}
  .is-animated .about-bottom{font-size:12px;gap:14px;bottom:75px}
+}
+
+/* Both right-hand captions share the same column as the first text state. */
+@media(min-width:561px){
+ .is-animated .about-main{margin-left:17px}
+ .is-animated .about-bottom{grid-template-columns:calc(50% + 37px) minmax(0,1fr) clamp(90px,10.3vw,148px);gap:0}
+ .is-animated .about-bottom p:nth-child(2){margin-left:0}
+}
+@media(min-width:561px) and (max-width:850px){
+ .is-animated .about-main{margin-left:0}
+ .is-animated .about-bottom{grid-template-columns:calc(50% + 20px) minmax(0,1fr) clamp(90px,10.3vw,148px)}
 }
