@@ -1,0 +1,10 @@
+/* The entry veil matches the Figma reference: 33.7px background blur and 4% tint. */
+.hero-picture{isolation:isolate}
+.hero-entry-blur{position:absolute;inset:0;z-index:1;pointer-events:none;background:rgba(20,23,25,.04);backdrop-filter:blur(33.7px);-webkit-backdrop-filter:blur(33.7px);opacity:0;visibility:hidden}
+.home-motion-pending #home .hero-entry-blur{opacity:1;visibility:visible}
+.home-motion-pending #home .header,.home-motion-pending #home .hero-copy,.home-motion-pending #home .hero-offer,.home-motion-pending .intro .intro-layout{opacity:0;visibility:hidden}
+.home-reveal-line{position:relative}
+@media(prefers-reduced-motion:reduce){
+ .hero-entry-blur{display:none}
+ .home-motion-pending #home .header,.home-motion-pending #home .hero-copy,.home-motion-pending #home .hero-offer,.home-motion-pending .intro .intro-layout{opacity:1;visibility:visible}
+}
