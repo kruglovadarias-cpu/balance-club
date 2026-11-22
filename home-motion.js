@@ -10,7 +10,7 @@
   const offer = document.querySelector('#home .hero-offer');
   const offerGrid = offer.querySelector('.offer-grid');
   const description = offer.querySelector('.offer-description');
-  const heroActions = [...offer.querySelectorAll('.button, .slider-controls')];
+  const heroActions = [...offer.querySelectorAll('.button, .slider-controls button')];
   const photo = hero.querySelector('img');
   const veil = hero.querySelector('.hero-entry-blur');
   const introLayout = intro.querySelector('.intro-layout');
@@ -76,7 +76,7 @@
           }});
           heroSplit = revealLines(document.querySelectorAll('#home .hero-copy .eyebrow, #home h1, #home .offer-grid > h2, #home .offer-description p'), text, .2, .6, .5);
           text.to(description, {autoAlpha: 1, duration: .4}, .2)
-            .fromTo(heroActions, {autoAlpha: 0, y: 10}, {autoAlpha: 1, y: 0, duration: .35, stagger: .06, ease: 'power1.out'}, .8);
+            .fromTo(heroActions, {autoAlpha: 0, y: 10}, {autoAlpha: 1, y: 0, duration: .35, stagger: .12, ease: 'power1.out'}, 1.4);
           animations.push(text,
             gsap.to(header, {autoAlpha: 1, duration: .7, delay: .1, ease: 'power1.inOut'}));
           // Menu/text never wait for the photograph; its veil stays until the pixels are decoded.
@@ -99,7 +99,8 @@
             gsap.set(introLayout, {autoAlpha: 1});
             gsap.set(introActions, {autoAlpha: 0});
             introSplit = revealLines(intro.querySelectorAll('.intro-facts strong, .intro-facts p, .intro-text h2, .intro-text > div > p'), text, .05, .5);
-            text.fromTo(introActions, {autoAlpha: 0, y: 8}, {autoAlpha: 1, y: 0, duration: .35, stagger: .05, ease: 'power1.out'}, .65);
+            text.fromTo(intro.querySelectorAll('.dot'), {autoAlpha: 0, y: 8}, {autoAlpha: 1, y: 0, duration: .35, stagger: .05, ease: 'power1.out'}, .65)
+              .fromTo(intro.querySelectorAll('.button'), {autoAlpha: 0, y: 8}, {autoAlpha: 1, y: 0, duration: .35, stagger: .12, ease: 'power1.out'}, 1.05);
             animations.push(text);
             text.play(0);
           };
@@ -109,26 +110,38 @@
         // Observe actual visibility in both axes: horizontal slider captions must not
         // finish revealing while their card is still outside the clipped track.
         const watchGroup = (trigger, elements, start = .78, actions = []) => {
-          if (!elements.length || trigger.getBoundingClientRect().bottom < 0 || elements[0].getBoundingClientRect().top < 0) return;
+          const first = elements[0] || trigger;
+          if ((!elements.length && !actions.length) || trigger.getBoundingClientRect().bottom < 0 || first.getBoundingClientRect().top < 0) return;
+          const actionOpacity = new Map(actions.map(action => [action, +getComputedStyle(action).opacity]));
           pageTargets.push(...elements, ...actions);
           gsap.set([...elements, ...actions], {autoAlpha: 0});
-          const watch = {trigger, first: elements[0], start, played: false, play: null};
+          const watch = {trigger, first, start, played: false, play: null};
           watch.play = () => {
             if (watch.played) return;
             watch.played = true;
             let split;
-            const text = gsap.timeline({paused: true, onComplete: () => revertSplit(split)});
-            gsap.set(elements, {autoAlpha: 1});
-            split = revealLines(elements, text, 0, 0, .5, .1);
-            if (actions.length) text.to(actions, {autoAlpha: 1, duration: .3}, Math.max(.25, (split.lines.length - 1) * .1 + .3));
+            const text = gsap.timeline({paused: true, onComplete: () => {
+              revertSplit(split);
+              if (actions.length) gsap.set(actions, {clearProps: 'opacity,visibility,transform'});
+            }});
+            if (elements.length) {
+              gsap.set(elements, {autoAlpha: 1});
+              split = revealLines(elements, text, 0, 0, .5, .1);
+            }
+            const textEnd = split ? .5 + Math.max(0, split.lines.length - 1) * .1 : 0;
+            if (actions.length) text.to(actions, {autoAlpha: (index, action) => actionOpacity.get(action), y: 0, duration: .3, stagger: .12, ease: 'power1.out'}, textEnd + .1);
             animations.push(text);
             text.play(0);
           };
           pageWatches.push(watch);
         };
-        const targets = [...document.querySelectorAll('main h2, main h3, main p, main .gift-price, .footer h2, .footer-address p, .footer-social p, .newsletter > p, .footer-line p')]
-          .filter(element => !element.closest('.intro, .interior-story, .principle, .review-card, .team-track article') && element.textContent.trim());
-        targets.forEach(element => watchGroup(element, [element], element.closest('.footer-line') ? 1 : .78));
+        const targets = [...document.querySelectorAll('main h2, main h3, main p, main .gift-price')]
+          .filter(element => !element.closest('.intro, .interior-story, .principle, .review-card, .team-track article, .section-heading, .gift-action, .consultation-copy > div') && element.textContent.trim());
+        targets.forEach(element => watchGroup(element, [element]));
+        document.querySelectorAll('main .section-heading').forEach(block => {
+          const heading = block.querySelector('h2');
+          if (heading) watchGroup(heading, [heading], .78, [...block.querySelectorAll('.button, .text-button, .map-link')]);
+        });
         // Each argument card has one sequence: heading, then all paragraph lines.
         // Trigger it when the copy is in view, not while only the card's top is visible.
         document.querySelectorAll('.principle').forEach(card => {
@@ -136,9 +149,13 @@
           const body = [...card.children].find(element => element.tagName === 'DIV' && element.querySelector('p'));
           if (body) watchGroup(body, [heading, ...body.querySelectorAll('p')].filter(Boolean), .7, [...body.querySelectorAll('.text-button')]);
         });
-        document.querySelectorAll('.team-track article').forEach(card => {
-          const elements = [...card.querySelectorAll('h3, p')];
-          if (elements.length) watchGroup(elements[0], elements);
+        // Names, roles, review copy and the entire footer stay static.
+        document.querySelectorAll('.gift-action, .consultation-copy > div').forEach(block => {
+          const elements = [...block.querySelectorAll('p')];
+          if (elements.length) watchGroup(block, elements, .78, [...block.querySelectorAll('.button')]);
+        });
+        document.querySelectorAll('main .carousel-controls').forEach(controls => {
+          if (!controls.closest('.interior-story')) watchGroup(controls, [], .85, [...controls.querySelectorAll('input, .carousel-buttons button')]);
         });
         observePage = () => {
           pageObservers.forEach(observer => observer.disconnect());

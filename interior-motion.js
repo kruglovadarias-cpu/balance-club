@@ -80,7 +80,7 @@
             .call(() => setLayer(incoming, true), null, fade)
             .to(lines.get(incoming), {opacity: 1, yPercent: 0, filter: 'blur(0px)',
               duration: .34, stagger: {amount: .4}, ease: 'power1.out'}, fade)
-            .to(incoming.querySelector('.button'), {autoAlpha: 1, y: 0, duration: .25, ease: 'power1.out'}, fade + .5);
+            .to(incoming.querySelector('.button'), {autoAlpha: 1, y: 0, duration: .25, ease: 'power1.out'}, fade + .8);
         }
         textTransition.play(0);
       };
