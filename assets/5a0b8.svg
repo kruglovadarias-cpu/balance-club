@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="146" height="40" viewBox="0 0 146 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mir-logo 2" clip-path="url(#clip0_0_202)">
+<path id="Vector" d="M0 -4.65661e-10H13.6948C14.9358 -4.65661e-10 18.6734 -0.410256 20.3378 5.42125C21.5788 9.17216 23.2432 15.0037 25.7398 23.7509H26.572C29.054 14.5788 31.1272 8.337 31.9594 5.42125C33.6238 -0.410256 37.7702 -4.65661e-10 39.4346 -4.65661e-10H52.2972V40H39.0112V16.2637H38.179L31.1272 40H21.17L14.1182 16.2637H12.8772V40H0M57.6992 -4.65661e-10H70.9852V23.7363H72.2262L80.9424 4.16117C82.6068 0.410256 86.3444 -4.65661e-10 86.3444 -4.65661e-10H98.7982V40H85.5122V16.2637H84.68L75.9638 35.8388C74.2994 39.5897 70.153 40 70.153 40H57.6992M116.639 27.9121V40H104.186V19.1648H144.861C143.197 24.1612 137.386 27.9121 130.743 27.9121" fill="#0F754E"/>
+<path id="Vector_2" d="M145.692 16.674C147.341 9.17216 142.363 0 131.573 0H103.352C104.184 8.74725 111.659 16.6593 119.543 16.6593" fill="url(#paint0_linear_0_202)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_202" x1="140.704" y1="8.33733" x2="107.499" y2="8.33733" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1F5CD7"/>
+<stop offset="1" stop-color="#02AEFF"/>
+</linearGradient>
+<clipPath id="clip0_0_202">
+<rect width="146" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

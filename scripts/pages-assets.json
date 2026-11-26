@@ -1,0 +1,3379 @@
+[
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "patients",
+    "node": null,
+    "file": "77dbf.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "payment",
+    "node": "435:6725",
+    "file": "e422c.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "payment",
+    "node": "435:6728",
+    "file": "42973.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "payment",
+    "node": "435:6732",
+    "file": "5a0b8.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "legal",
+    "node": "435:7325",
+    "file": "615ff.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "legal",
+    "node": "435:7326",
+    "file": "439cd.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "legal",
+    "node": "435:7327",
+    "file": "7b3de.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8444",
+    "file": "31025.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "98.87%",
+      "height": "87.01%",
+      "left": "-0.09%",
+      "top": "11.34%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8445",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8446",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "96.79%",
+      "height": "85.18%",
+      "left": "1.6%",
+      "top": "7.35%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8447",
+    "file": "ba513.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "106.85%",
+      "height": "94.03%",
+      "left": "-3.43%",
+      "top": "0"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "component-Danne (DMK)",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "component-Danne (DMK)",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8449",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "96.79%",
+      "height": "85.18%",
+      "left": "1.6%",
+      "top": "7.35%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8450",
+    "file": "31025.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "98.87%",
+      "height": "87.01%",
+      "left": "-0.09%",
+      "top": "11.34%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "component-Amenity",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "component-Amenity",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8452",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "92.62%",
+      "height": "81.5%",
+      "left": "3.68%",
+      "top": "9.1%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8453",
+    "file": "ba513.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "106.85%",
+      "height": "94.03%",
+      "left": "-3.43%",
+      "top": "0"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8404",
+    "file": "31025.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "98.87%",
+      "height": "87.01%",
+      "left": "-0.09%",
+      "top": "11.34%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8405",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8406",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "96.79%",
+      "height": "85.18%",
+      "left": "1.6%",
+      "top": "7.35%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8407",
+    "file": "ba513.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "106.85%",
+      "height": "94.03%",
+      "left": "-3.43%",
+      "top": "0"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "component-Danne (DMK)",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "component-Danne (DMK)",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "catalog",
+    "node": "435:8409",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "96.79%",
+      "height": "85.18%",
+      "left": "1.6%",
+      "top": "7.35%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6395",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6395",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6396",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6396",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-Миотокс",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-Миотокс",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-REVI (Реви)",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-REVI (Реви)",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-IAL-SYSTEM",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-IAL-SYSTEM",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-IAL-SYSTEM ACP",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-IAL-SYSTEM ACP",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6404",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6404",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6405",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6405",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-PLINEST",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-PLINEST",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-IALEST",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-IALEST",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-Гиалрипайер",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-Гиалрипайер",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-PROFHILO",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "component-PROFHILO",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6413",
+    "file": "32ca8.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "82.1%",
+      "height": "69.35%",
+      "left": "7.44%",
+      "top": "15.43%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6414",
+    "file": "23608.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100.13%",
+      "height": "91.16%",
+      "left": "0.08%",
+      "top": "8.84%"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6415",
+    "file": "56cc3.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "injections",
+    "node": "435:6416",
+    "file": "6dba4.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9479",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9480",
+    "file": "eab38.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9481",
+    "file": "7a95e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9482",
+    "file": "20440.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9486",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9490",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9491",
+    "file": "eab38.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9495",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9496",
+    "file": "eab38.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9497",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialists",
+    "node": "435:9498",
+    "file": "eab38.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11358",
+    "file": "f4d70.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11369",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11380",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11391",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11403",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11414",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11425",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11436",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11448",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11459",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11470",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "blog",
+    "node": "435:11481",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "article",
+    "node": "435:5837",
+    "file": "f4d70.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "article",
+    "node": "435:5886",
+    "file": "f4d70.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "article",
+    "node": "435:5897",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "article",
+    "node": "435:5908",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "article",
+    "node": "435:5919",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7819",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7823",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7827",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7831",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7835",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7839",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7843",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7858",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7862",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7866",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7870",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7874",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "service",
+    "node": "435:7942",
+    "file": "9e667.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7947",
+    "file": "31025.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "98.87%",
+      "height": "87.01%",
+      "left": "-0.09%",
+      "top": "11.34%"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7948",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7949",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "96.79%",
+      "height": "85.18%",
+      "left": "1.6%",
+      "top": "7.35%"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7950",
+    "file": "ba513.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "106.85%",
+      "height": "94.03%",
+      "left": "-3.43%",
+      "top": "0"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7960",
+    "file": "f4d70.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7971",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7982",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "service",
+    "node": "435:7993",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialist",
+    "node": null,
+    "file": "6c20e.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10449",
+    "file": "eab38.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialist",
+    "node": "435:10468",
+    "file": "e5035.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10472",
+    "file": "64d61.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10488",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10492",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10496",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10500",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10504",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10508",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10512",
+    "file": "1ebd3.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10516",
+    "file": "f512e.svg",
+    "geometry": "native-svg"
+  },
+  {
+    "page": "specialist",
+    "node": "435:10525",
+    "file": "31025.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "98.87%",
+      "height": "87.01%",
+      "left": "-0.09%",
+      "top": "11.34%"
+    }
+  },
+  {
+    "page": "specialist",
+    "node": "435:10526",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "specialist",
+    "node": "435:10527",
+    "file": "1a66e.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "96.79%",
+      "height": "85.18%",
+      "left": "1.6%",
+      "top": "7.35%"
+    }
+  },
+  {
+    "page": "specialist",
+    "node": "435:10528",
+    "file": "ba513.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "106.85%",
+      "height": "94.03%",
+      "left": "-3.43%",
+      "top": "0"
+    }
+  },
+  {
+    "page": "offers",
+    "node": "435:10951",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offers",
+    "node": "435:10960",
+    "file": "ab338.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offers",
+    "node": "435:10966",
+    "file": "33c02.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offers",
+    "node": "435:10973",
+    "file": "ab338.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offers",
+    "node": "435:10982",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offers",
+    "node": "435:10988",
+    "file": "33c02.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscriptions",
+    "node": "435:11862",
+    "file": "baab7.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscriptions",
+    "node": "435:11874",
+    "file": "ab338.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "certificates",
+    "node": "435:12241",
+    "file": "f4d70.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "150.67%",
+      "left": "0.21%",
+      "top": "-12.1%"
+    }
+  },
+  {
+    "page": "certificates",
+    "node": "435:12257",
+    "file": "940ae.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12599",
+    "file": "dbfde.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "290.6%",
+      "left": "0",
+      "top": "-110.95%"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12742",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12754",
+    "file": "eab38.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "component-Фотодинамическая терапия",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "component-Фотодинамическая терапия",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12733",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12733",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12734",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12734",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12735",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "offer",
+    "node": "435:12735",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:12939",
+    "file": "ab338.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13079",
+    "file": "aa0cb.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "component-Фотодинамическая терапия",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "component-Фотодинамическая терапия",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13071",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13071",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13072",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13072",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13073",
+    "file": "2ab99.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "123.35%",
+      "height": "108.88%",
+      "left": "-11.44%",
+      "top": "-7.62%"
+    }
+  },
+  {
+    "page": "subscription",
+    "node": "435:13073",
+    "file": "584a2.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "contacts",
+    "node": "435:10108",
+    "file": "a154d.png",
+    "geometry": {
+      "position": "absolute",
+      "max-width": "none",
+      "width": "100%",
+      "height": "100%",
+      "left": "0",
+      "top": "0",
+      "object-fit": "cover"
+    }
+  },
+  {
+    "page": "article",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "article",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "injections",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "payment",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "patients",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "572bf.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "documents",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "legal",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "privacy",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "details",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "service",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "catalog",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "prices",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialists",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "9bf63.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "contacts",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "specialist",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offers",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "blog",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscriptions",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "certificates",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "offer",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "subscription",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "a795f.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "balance-club-logo.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "a43bd.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "f2cb2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "15ff8.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "f3ef5.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "6fc99.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "e07e2.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "ba245.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "4c516.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "fe497.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "63f53.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  },
+  {
+    "page": "consent",
+    "file": "90b2a.svg",
+    "node": "shared-navigation-or-ui",
+    "geometry": "native asset; responsive wrapper"
+  }
+]
